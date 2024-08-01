@@ -7,9 +7,7 @@ def get_connection():
         host='127.0.0.1',
         user='root',
         password='2210',
-        db='redbusproject',
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor
+        db='redbusproject'
     )
 
 def fetch_data(query):
